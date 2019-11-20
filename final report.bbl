@@ -1,0 +1,19 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Altham}{1962}{altham1962history}
+Altham, H.  \harvardyearleft 1962\harvardyearright , `A history of cricket,
+  volume 1 (to 1914)'.
+
+\harvarditem{Doe}{2019}{citeme}
+Doe, J.  \harvardyearleft 2019\harvardyearright , A project proposal citation,
+  {\em in} `Best seller book: how to write a proposal?'.
+
+\harvarditem[Tang et~al.]{Tang, Wang, Xiao, Zheng \harvardand\
+  Hwang}{2018}{Tang_2018_CVPR_Workshops}
+Tang, Z., Wang, G., Xiao, H., Zheng, A. \harvardand\ Hwang, J.-N.
+  \harvardyearleft 2018\harvardyearright , Single-camera and inter-camera
+  vehicle tracking and 3d speed estimation based on fusion of visual and
+  semantic features, {\em in} `The IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR) Workshops'.
+
+\end{thebibliography}

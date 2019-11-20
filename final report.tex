@@ -1,0 +1,75 @@
+\documentclass{report} %specifies the document being created is an article
+\usepackage{graphicx} %tells LaTeX we want to include images in the document 
+\graphicspath{ {./images/} } %this points to your image folder, replace images with the name of the folder you are using to store the images displayed in this document. (Note: This folder must be in the same folder where your LaTeX document is saved)
+
+\usepackage{natbib} % this allows you work on the references and citations in Harvard format
+\pagestyle{headings}
+
+
+\begin{document} %start the document
+
+\title{The Title Page contains the project title, your name, the date (month and year) of submission, your project supervisor and the title of the undergraduate programme.} %title of document
+\author{Insert Name - Student ID Here} %author of document (i.e. you)
+
+\maketitle %prints the title on the page
+
+{
+	\centering
+	A Project Proposal for the Degree of (Insert Degree)
+
+} %this command can be used to center any text within LaTeX.
+\textbf{Abstract}\\
+The Abstract, occupying less than half a page, is a short description of the intention of the project.\\
+\textbf{Preface}\\
+The Preface includes any relevant observations that do not belong in the project itself.  It is here that the justification for the project meeting the programme requirements.\\
+\textbf{Acknowledgements}\\
+It is customary to acknowledge any substantial help, with either the project work or the report, from people and other informal sources.\\
+
+\tableofcontents
+
+
+
+\listoftables
+
+\listoffigures
+
+\chapter{Introduction}
+For this section adapt - your How to Select a Project Topic document.
+
+\chapter{Literature Review} %sections within LaTeX can be created like this
+. 
+Here is a citation in latex \citep{citeme}. %the \cite command is used to cite in LaTeX, the \citep specifies to put the citation in brackets. Before the citation is displayed correctly, you must compile the document in biblatex. Google will help with this, as the process for doing this will differ depending on what tex editor you are using.
+
+\cite{Tang_2018_CVPR_Workshops}
+\cite{altham1962history}
+
+
+\chapter{Analysis}
+
+
+\chapter{Requirements specification}
+
+
+\chapter{Design}
+
+\chapter{Implementation}
+
+\chapter{Testing and Integration}
+
+\chapter{Operation and Maintenance}
+
+\chapter{Closing Chapters}
+\section{Conclusion}
+
+The closing chapters commonly include a summary and a conclusion together with any recommendations. In summarising, highlight the important stages and outcomes of the project.  The conclusions, would normally consider and comment critically upon the results of the project; this includes both the process and the product.  This should include a consideration of the extent to which the aims of the project have been achieved.  Finally, recommend ways in which the work could be applied or extended.
+
+
+
+\bibliographystyle{agsm}
+\bibliography{bibliography,myreferences} %import biblography to be used for references here, replace the bibliography.bib with the name of your .bib file
+
+
+\chapter{Appendices}
+This should include detailed and technical documentation such as table of results, diagrams, program source code, etc, which are essential parts of the project but not directly a part of the main discussion in the report.  All contents of appendices should be exclusively, products of the student’s own work.
+Other materials used during the project work (such as information from user manuals, interview notes, etc), which it is necessary to include, should if possible be summarized to only a few pages before entering into the appendix. Original copies of such material should be kept by the student and may be required to be produced as supporting evidence of their work.  Examples of key coding may be provided in an Appendix but generally it should be on the P drive with its associated software.
+\end{document} %end the document
